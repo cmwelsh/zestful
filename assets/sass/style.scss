@@ -1,0 +1,28 @@
+// Imports
+
+@import "base";
+@import "normalize";
+@import "rem";
+
+// Normalize additional elements
+
+textarea {
+    @include rem(height, 9rem);
+}
+
+// Layout
+
+@include border-box-sizing;
+
+.container {
+    @include susy-grid-background;
+    @include container;
+
+    // temporary fix for collapsing margins
+    border: 1px solid transparent;
+
+    @include at-breakpoint(40em 8) {
+        @include susy-grid-background;
+        @include container;
+    }
+}

@@ -116,7 +116,7 @@ pre {
 /* line 175, ../sass/_normalize.scss */
 blockquote {
   /* Sets 1 unit of vertical rhythm on the top and bottom margin. */
-  margin: 1.5rem 2.5rem;
+  margin: 1.5rem 40px;
 }
 
 /*
@@ -280,7 +280,7 @@ menu,
 ol,
 ul {
   margin: 1.5rem 0;
-  padding: 0 0 0 2.5rem;
+  padding: 0 0 0 40px;
 }
 
 /* line 335, ../sass/_normalize.scss */
@@ -290,7 +290,7 @@ dl {
 
 /* line 339, ../sass/_normalize.scss */
 dd {
-  margin: 0 0 0 2.5rem;
+  margin: 0 0 0 40px;
 }
 
 /* ==========================================================================
@@ -511,15 +511,15 @@ textarea {
 
 /* line 18, ../sass/style.scss */
 .container {
-  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(5%, rgba(0, 0, 0, 0.5)), color-stop(5%, rgba(0, 0, 0, 0))), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(3.22581%, rgba(0, 0, 0, 0)), color-stop(3.22581%, rgba(100, 100, 225, 0.25)), color-stop(16.12903%, rgba(100, 100, 225, 0.25)), color-stop(16.12903%, rgba(0, 0, 0, 0)), color-stop(19.35484%, rgba(0, 0, 0, 0)), color-stop(19.35484%, rgba(100, 100, 225, 0.25)), color-stop(32.25806%, rgba(100, 100, 225, 0.25)), color-stop(32.25806%, rgba(0, 0, 0, 0)), color-stop(35.48387%, rgba(0, 0, 0, 0)), color-stop(35.48387%, rgba(100, 100, 225, 0.25)), color-stop(48.3871%, rgba(100, 100, 225, 0.25)), color-stop(48.3871%, rgba(0, 0, 0, 0)), color-stop(51.6129%, rgba(0, 0, 0, 0)), color-stop(51.6129%, rgba(100, 100, 225, 0.25)), color-stop(64.51613%, rgba(100, 100, 225, 0.25)), color-stop(64.51613%, rgba(0, 0, 0, 0)), color-stop(67.74194%, rgba(0, 0, 0, 0)), color-stop(67.74194%, rgba(100, 100, 225, 0.25)), color-stop(80.64516%, rgba(100, 100, 225, 0.25)), color-stop(80.64516%, rgba(0, 0, 0, 0)), color-stop(83.87097%, rgba(0, 0, 0, 0)), color-stop(83.87097%, rgba(100, 100, 225, 0.25)), color-stop(96.77419%, rgba(100, 100, 225, 0.25)), color-stop(96.77419%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
-  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%), -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 3.22581%, rgba(100, 100, 225, 0.25) 3.22581%, rgba(100, 100, 225, 0.25) 16.12903%, rgba(0, 0, 0, 0) 16.12903%, rgba(0, 0, 0, 0) 19.35484%, rgba(100, 100, 225, 0.25) 19.35484%, rgba(100, 100, 225, 0.25) 32.25806%, rgba(0, 0, 0, 0) 32.25806%, rgba(0, 0, 0, 0) 35.48387%, rgba(100, 100, 225, 0.25) 35.48387%, rgba(100, 100, 225, 0.25) 48.3871%, rgba(0, 0, 0, 0) 48.3871%, rgba(0, 0, 0, 0) 51.6129%, rgba(100, 100, 225, 0.25) 51.6129%, rgba(100, 100, 225, 0.25) 64.51613%, rgba(0, 0, 0, 0) 64.51613%, rgba(0, 0, 0, 0) 67.74194%, rgba(100, 100, 225, 0.25) 67.74194%, rgba(100, 100, 225, 0.25) 80.64516%, rgba(0, 0, 0, 0) 80.64516%, rgba(0, 0, 0, 0) 83.87097%, rgba(100, 100, 225, 0.25) 83.87097%, rgba(100, 100, 225, 0.25) 96.77419%, rgba(0, 0, 0, 0) 96.77419%, rgba(0, 0, 0, 0) 100%);
-  background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%), -moz-linear-gradient(left, rgba(0, 0, 0, 0) 3.22581%, rgba(100, 100, 225, 0.25) 3.22581%, rgba(100, 100, 225, 0.25) 16.12903%, rgba(0, 0, 0, 0) 16.12903%, rgba(0, 0, 0, 0) 19.35484%, rgba(100, 100, 225, 0.25) 19.35484%, rgba(100, 100, 225, 0.25) 32.25806%, rgba(0, 0, 0, 0) 32.25806%, rgba(0, 0, 0, 0) 35.48387%, rgba(100, 100, 225, 0.25) 35.48387%, rgba(100, 100, 225, 0.25) 48.3871%, rgba(0, 0, 0, 0) 48.3871%, rgba(0, 0, 0, 0) 51.6129%, rgba(100, 100, 225, 0.25) 51.6129%, rgba(100, 100, 225, 0.25) 64.51613%, rgba(0, 0, 0, 0) 64.51613%, rgba(0, 0, 0, 0) 67.74194%, rgba(100, 100, 225, 0.25) 67.74194%, rgba(100, 100, 225, 0.25) 80.64516%, rgba(0, 0, 0, 0) 80.64516%, rgba(0, 0, 0, 0) 83.87097%, rgba(100, 100, 225, 0.25) 83.87097%, rgba(100, 100, 225, 0.25) 96.77419%, rgba(0, 0, 0, 0) 96.77419%, rgba(0, 0, 0, 0) 100%);
-  background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%), -o-linear-gradient(left, rgba(0, 0, 0, 0) 3.22581%, rgba(100, 100, 225, 0.25) 3.22581%, rgba(100, 100, 225, 0.25) 16.12903%, rgba(0, 0, 0, 0) 16.12903%, rgba(0, 0, 0, 0) 19.35484%, rgba(100, 100, 225, 0.25) 19.35484%, rgba(100, 100, 225, 0.25) 32.25806%, rgba(0, 0, 0, 0) 32.25806%, rgba(0, 0, 0, 0) 35.48387%, rgba(100, 100, 225, 0.25) 35.48387%, rgba(100, 100, 225, 0.25) 48.3871%, rgba(0, 0, 0, 0) 48.3871%, rgba(0, 0, 0, 0) 51.6129%, rgba(100, 100, 225, 0.25) 51.6129%, rgba(100, 100, 225, 0.25) 64.51613%, rgba(0, 0, 0, 0) 64.51613%, rgba(0, 0, 0, 0) 67.74194%, rgba(100, 100, 225, 0.25) 67.74194%, rgba(100, 100, 225, 0.25) 80.64516%, rgba(0, 0, 0, 0) 80.64516%, rgba(0, 0, 0, 0) 83.87097%, rgba(100, 100, 225, 0.25) 83.87097%, rgba(100, 100, 225, 0.25) 96.77419%, rgba(0, 0, 0, 0) 96.77419%, rgba(0, 0, 0, 0) 100%);
-  background-image: linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%), linear-gradient(left, rgba(0, 0, 0, 0) 3.22581%, rgba(100, 100, 225, 0.25) 3.22581%, rgba(100, 100, 225, 0.25) 16.12903%, rgba(0, 0, 0, 0) 16.12903%, rgba(0, 0, 0, 0) 19.35484%, rgba(100, 100, 225, 0.25) 19.35484%, rgba(100, 100, 225, 0.25) 32.25806%, rgba(0, 0, 0, 0) 32.25806%, rgba(0, 0, 0, 0) 35.48387%, rgba(100, 100, 225, 0.25) 35.48387%, rgba(100, 100, 225, 0.25) 48.3871%, rgba(0, 0, 0, 0) 48.3871%, rgba(0, 0, 0, 0) 51.6129%, rgba(100, 100, 225, 0.25) 51.6129%, rgba(100, 100, 225, 0.25) 64.51613%, rgba(0, 0, 0, 0) 64.51613%, rgba(0, 0, 0, 0) 67.74194%, rgba(100, 100, 225, 0.25) 67.74194%, rgba(100, 100, 225, 0.25) 80.64516%, rgba(0, 0, 0, 0) 80.64516%, rgba(0, 0, 0, 0) 83.87097%, rgba(100, 100, 225, 0.25) 83.87097%, rgba(100, 100, 225, 0.25) 96.77419%, rgba(0, 0, 0, 0) 96.77419%, rgba(0, 0, 0, 0) 100%);
-  -webkit-background-size: 100% 24px, auto;
-  -moz-background-size: 100% 24px, auto;
-  -o-background-size: 100% 24px, auto;
-  background-size: 100% 24px, auto;
+  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(5%, rgba(0, 0, 0, 0.5)), color-stop(5%, rgba(0, 0, 0, 0)));
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+  background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+  background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+  background-image: linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+  -webkit-background-size: 100% 24px;
+  -moz-background-size: 100% 24px;
+  -o-background-size: 100% 24px;
+  background-size: 100% 24px;
   background-position: left top;
   max-width: 31em;
   padding-left: 1em;
@@ -537,15 +537,15 @@ textarea {
 @media (min-width: 40em) {
   /* line 18, ../sass/style.scss */
   .container {
-    background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(5%, rgba(0, 0, 0, 0.5)), color-stop(5%, rgba(0, 0, 0, 0))), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(2.43902%, rgba(0, 0, 0, 0)), color-stop(2.43902%, rgba(100, 100, 225, 0.25)), color-stop(12.19512%, rgba(100, 100, 225, 0.25)), color-stop(12.19512%, rgba(0, 0, 0, 0)), color-stop(14.63415%, rgba(0, 0, 0, 0)), color-stop(14.63415%, rgba(100, 100, 225, 0.25)), color-stop(24.39024%, rgba(100, 100, 225, 0.25)), color-stop(24.39024%, rgba(0, 0, 0, 0)), color-stop(26.82927%, rgba(0, 0, 0, 0)), color-stop(26.82927%, rgba(100, 100, 225, 0.25)), color-stop(36.58537%, rgba(100, 100, 225, 0.25)), color-stop(36.58537%, rgba(0, 0, 0, 0)), color-stop(39.02439%, rgba(0, 0, 0, 0)), color-stop(39.02439%, rgba(100, 100, 225, 0.25)), color-stop(48.78049%, rgba(100, 100, 225, 0.25)), color-stop(48.78049%, rgba(0, 0, 0, 0)), color-stop(51.21951%, rgba(0, 0, 0, 0)), color-stop(51.21951%, rgba(100, 100, 225, 0.25)), color-stop(60.97561%, rgba(100, 100, 225, 0.25)), color-stop(60.97561%, rgba(0, 0, 0, 0)), color-stop(63.41463%, rgba(0, 0, 0, 0)), color-stop(63.41463%, rgba(100, 100, 225, 0.25)), color-stop(73.17073%, rgba(100, 100, 225, 0.25)), color-stop(73.17073%, rgba(0, 0, 0, 0)), color-stop(75.60976%, rgba(0, 0, 0, 0)), color-stop(75.60976%, rgba(100, 100, 225, 0.25)), color-stop(85.36585%, rgba(100, 100, 225, 0.25)), color-stop(85.36585%, rgba(0, 0, 0, 0)), color-stop(87.80488%, rgba(0, 0, 0, 0)), color-stop(87.80488%, rgba(100, 100, 225, 0.25)), color-stop(97.56098%, rgba(100, 100, 225, 0.25)), color-stop(97.56098%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
-    background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%), -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 2.43902%, rgba(100, 100, 225, 0.25) 2.43902%, rgba(100, 100, 225, 0.25) 12.19512%, rgba(0, 0, 0, 0) 12.19512%, rgba(0, 0, 0, 0) 14.63415%, rgba(100, 100, 225, 0.25) 14.63415%, rgba(100, 100, 225, 0.25) 24.39024%, rgba(0, 0, 0, 0) 24.39024%, rgba(0, 0, 0, 0) 26.82927%, rgba(100, 100, 225, 0.25) 26.82927%, rgba(100, 100, 225, 0.25) 36.58537%, rgba(0, 0, 0, 0) 36.58537%, rgba(0, 0, 0, 0) 39.02439%, rgba(100, 100, 225, 0.25) 39.02439%, rgba(100, 100, 225, 0.25) 48.78049%, rgba(0, 0, 0, 0) 48.78049%, rgba(0, 0, 0, 0) 51.21951%, rgba(100, 100, 225, 0.25) 51.21951%, rgba(100, 100, 225, 0.25) 60.97561%, rgba(0, 0, 0, 0) 60.97561%, rgba(0, 0, 0, 0) 63.41463%, rgba(100, 100, 225, 0.25) 63.41463%, rgba(100, 100, 225, 0.25) 73.17073%, rgba(0, 0, 0, 0) 73.17073%, rgba(0, 0, 0, 0) 75.60976%, rgba(100, 100, 225, 0.25) 75.60976%, rgba(100, 100, 225, 0.25) 85.36585%, rgba(0, 0, 0, 0) 85.36585%, rgba(0, 0, 0, 0) 87.80488%, rgba(100, 100, 225, 0.25) 87.80488%, rgba(100, 100, 225, 0.25) 97.56098%, rgba(0, 0, 0, 0) 97.56098%, rgba(0, 0, 0, 0) 100%);
-    background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%), -moz-linear-gradient(left, rgba(0, 0, 0, 0) 2.43902%, rgba(100, 100, 225, 0.25) 2.43902%, rgba(100, 100, 225, 0.25) 12.19512%, rgba(0, 0, 0, 0) 12.19512%, rgba(0, 0, 0, 0) 14.63415%, rgba(100, 100, 225, 0.25) 14.63415%, rgba(100, 100, 225, 0.25) 24.39024%, rgba(0, 0, 0, 0) 24.39024%, rgba(0, 0, 0, 0) 26.82927%, rgba(100, 100, 225, 0.25) 26.82927%, rgba(100, 100, 225, 0.25) 36.58537%, rgba(0, 0, 0, 0) 36.58537%, rgba(0, 0, 0, 0) 39.02439%, rgba(100, 100, 225, 0.25) 39.02439%, rgba(100, 100, 225, 0.25) 48.78049%, rgba(0, 0, 0, 0) 48.78049%, rgba(0, 0, 0, 0) 51.21951%, rgba(100, 100, 225, 0.25) 51.21951%, rgba(100, 100, 225, 0.25) 60.97561%, rgba(0, 0, 0, 0) 60.97561%, rgba(0, 0, 0, 0) 63.41463%, rgba(100, 100, 225, 0.25) 63.41463%, rgba(100, 100, 225, 0.25) 73.17073%, rgba(0, 0, 0, 0) 73.17073%, rgba(0, 0, 0, 0) 75.60976%, rgba(100, 100, 225, 0.25) 75.60976%, rgba(100, 100, 225, 0.25) 85.36585%, rgba(0, 0, 0, 0) 85.36585%, rgba(0, 0, 0, 0) 87.80488%, rgba(100, 100, 225, 0.25) 87.80488%, rgba(100, 100, 225, 0.25) 97.56098%, rgba(0, 0, 0, 0) 97.56098%, rgba(0, 0, 0, 0) 100%);
-    background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%), -o-linear-gradient(left, rgba(0, 0, 0, 0) 2.43902%, rgba(100, 100, 225, 0.25) 2.43902%, rgba(100, 100, 225, 0.25) 12.19512%, rgba(0, 0, 0, 0) 12.19512%, rgba(0, 0, 0, 0) 14.63415%, rgba(100, 100, 225, 0.25) 14.63415%, rgba(100, 100, 225, 0.25) 24.39024%, rgba(0, 0, 0, 0) 24.39024%, rgba(0, 0, 0, 0) 26.82927%, rgba(100, 100, 225, 0.25) 26.82927%, rgba(100, 100, 225, 0.25) 36.58537%, rgba(0, 0, 0, 0) 36.58537%, rgba(0, 0, 0, 0) 39.02439%, rgba(100, 100, 225, 0.25) 39.02439%, rgba(100, 100, 225, 0.25) 48.78049%, rgba(0, 0, 0, 0) 48.78049%, rgba(0, 0, 0, 0) 51.21951%, rgba(100, 100, 225, 0.25) 51.21951%, rgba(100, 100, 225, 0.25) 60.97561%, rgba(0, 0, 0, 0) 60.97561%, rgba(0, 0, 0, 0) 63.41463%, rgba(100, 100, 225, 0.25) 63.41463%, rgba(100, 100, 225, 0.25) 73.17073%, rgba(0, 0, 0, 0) 73.17073%, rgba(0, 0, 0, 0) 75.60976%, rgba(100, 100, 225, 0.25) 75.60976%, rgba(100, 100, 225, 0.25) 85.36585%, rgba(0, 0, 0, 0) 85.36585%, rgba(0, 0, 0, 0) 87.80488%, rgba(100, 100, 225, 0.25) 87.80488%, rgba(100, 100, 225, 0.25) 97.56098%, rgba(0, 0, 0, 0) 97.56098%, rgba(0, 0, 0, 0) 100%);
-    background-image: linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%), linear-gradient(left, rgba(0, 0, 0, 0) 2.43902%, rgba(100, 100, 225, 0.25) 2.43902%, rgba(100, 100, 225, 0.25) 12.19512%, rgba(0, 0, 0, 0) 12.19512%, rgba(0, 0, 0, 0) 14.63415%, rgba(100, 100, 225, 0.25) 14.63415%, rgba(100, 100, 225, 0.25) 24.39024%, rgba(0, 0, 0, 0) 24.39024%, rgba(0, 0, 0, 0) 26.82927%, rgba(100, 100, 225, 0.25) 26.82927%, rgba(100, 100, 225, 0.25) 36.58537%, rgba(0, 0, 0, 0) 36.58537%, rgba(0, 0, 0, 0) 39.02439%, rgba(100, 100, 225, 0.25) 39.02439%, rgba(100, 100, 225, 0.25) 48.78049%, rgba(0, 0, 0, 0) 48.78049%, rgba(0, 0, 0, 0) 51.21951%, rgba(100, 100, 225, 0.25) 51.21951%, rgba(100, 100, 225, 0.25) 60.97561%, rgba(0, 0, 0, 0) 60.97561%, rgba(0, 0, 0, 0) 63.41463%, rgba(100, 100, 225, 0.25) 63.41463%, rgba(100, 100, 225, 0.25) 73.17073%, rgba(0, 0, 0, 0) 73.17073%, rgba(0, 0, 0, 0) 75.60976%, rgba(100, 100, 225, 0.25) 75.60976%, rgba(100, 100, 225, 0.25) 85.36585%, rgba(0, 0, 0, 0) 85.36585%, rgba(0, 0, 0, 0) 87.80488%, rgba(100, 100, 225, 0.25) 87.80488%, rgba(100, 100, 225, 0.25) 97.56098%, rgba(0, 0, 0, 0) 97.56098%, rgba(0, 0, 0, 0) 100%);
-    -webkit-background-size: 100% 24px, auto;
-    -moz-background-size: 100% 24px, auto;
-    -o-background-size: 100% 24px, auto;
-    background-size: 100% 24px, auto;
+    background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(5%, rgba(0, 0, 0, 0.5)), color-stop(5%, rgba(0, 0, 0, 0)));
+    background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+    background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+    background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+    background-image: linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+    -webkit-background-size: 100% 24px;
+    -moz-background-size: 100% 24px;
+    -o-background-size: 100% 24px;
+    background-size: 100% 24px;
     background-position: left top;
     max-width: 41em;
     padding-left: 1em;

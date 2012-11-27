@@ -22,9 +22,9 @@ $grid-background-total-columns: 1;
 
 @mixin susy-grid-background {
     // Show vertical rhythm
-    //@include baseline-grid-background($base-line-height);
+    @include baseline-grid-background($base-line-height);
     // Show grid and vertical rhythm
-    @include grid-background($total-columns, $column-width, $gutter-width, $base-line-height, $grid-padding, $force-fluid: true);
+    //@include grid-background($total-columns, $column-width, $gutter-width, $base-line-height, $grid-padding, $force-fluid: true);
 }
 
 // Typography
@@ -43,11 +43,14 @@ $h6-font-size: 0.75 * $base-font-size;
 
 $base-font-family: sans-serif;
 
-$indent-amount: 2.5rem;
-
 // Breakpoints
 
-$small: 8 45em;
-$mobile: $total-columns;
+$mobile: 6 30em;
 $tablet: 30em 8 45em;
 $desktop: 45em 12;
+
+// Tablet and mobile combined
+$small: 8 45em;
+
+// Tablet and desktop combined
+$large: 30em 8;

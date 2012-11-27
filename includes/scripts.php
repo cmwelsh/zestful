@@ -13,6 +13,6 @@ class Scripts {
         wp_enqueue_script('jquery');
 
         // The main entry point script is where you wire everything together
-        Zesty::enqueue_script('zesty-entry', 'entry');
+        Zesty::enqueue_script('zesty-entry', 'entry.js');
     }
 }

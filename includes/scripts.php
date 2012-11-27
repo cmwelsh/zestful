@@ -12,7 +12,11 @@ class Scripts {
         // Load script dependencies - these should not affect the document
         wp_enqueue_script('jquery');
 
-        // The main entry point script is where you wire everything together
-        Zesty::enqueue_script('zesty-entry', 'entry.js');
+        // Add jQuery plugins to plugins.js
+        // or add a new line for them in their own file
+        Zesty::enqueue_script('zesty-plugins', 'plugins.js');
+
+        // The main.js entry point script is where you wire everything together
+        Zesty::enqueue_script('zesty-main', 'main.js');
     }
 }

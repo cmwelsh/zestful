@@ -70,7 +70,6 @@ html {
   -ms-text-size-adjust: 100%;
   /* 2 */
   /* Establishes a vertical rhythm unit using $base-line-height. */
-  line-height: 24px;
   line-height: 1.5rem;
 }
 
@@ -127,75 +126,51 @@ blockquote {
 /* line 185, ../sass/_normalize.scss */
 h1 {
   /* Sets the font-size and line-height while keeping a proper vertical rhythm. */
-  font-size: 32px;
   font-size: 2rem;
-  line-height: 48px;
-  line-height: 3rem;
+  line-height: 1.5rem;
   /* Sets 1 unit of vertical rhythm on the top and bottom margins. */
-  margin-top: 24px;
-  margin-top: 1.5rem;
-  margin-bottom: 24px;
-  margin-bottom: 1.5rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 
 /* line 194, ../sass/_normalize.scss */
 h2 {
-  font-size: 24px;
   font-size: 1.5rem;
-  line-height: 48px;
-  line-height: 3rem;
-  margin-top: 24px;
-  margin-top: 1.5rem;
-  margin-bottom: 24px;
-  margin-bottom: 1.5rem;
+  line-height: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 /* line 200, ../sass/_normalize.scss */
 h3 {
-  font-size: 19px;
   font-size: 1.17rem;
-  line-height: 24px;
-  line-height: 1.5rem;
-  margin-top: 24px;
-  margin-top: 1.5rem;
-  margin-bottom: 24px;
-  margin-bottom: 1.5rem;
+  line-height: 1.28205rem;
+  margin-top: 1.28205rem;
+  margin-bottom: 1.28205rem;
 }
 
 /* line 206, ../sass/_normalize.scss */
 h4 {
-  font-size: 16px;
   font-size: 1rem;
-  line-height: 24px;
   line-height: 1.5rem;
-  margin-top: 24px;
   margin-top: 1.5rem;
-  margin-bottom: 24px;
   margin-bottom: 1.5rem;
 }
 
 /* line 212, ../sass/_normalize.scss */
 h5 {
-  font-size: 13px;
   font-size: 0.83rem;
-  line-height: 24px;
-  line-height: 1.5rem;
-  margin-top: 24px;
-  margin-top: 1.5rem;
-  margin-bottom: 24px;
-  margin-bottom: 1.5rem;
+  line-height: 1.80723rem;
+  margin-top: 1.80723rem;
+  margin-bottom: 1.80723rem;
 }
 
 /* line 218, ../sass/_normalize.scss */
 h6 {
-  font-size: 12px;
   font-size: 0.75rem;
-  line-height: 24px;
-  line-height: 1.5rem;
-  margin-top: 24px;
-  margin-top: 1.5rem;
-  margin-bottom: 24px;
-  margin-bottom: 1.5rem;
+  line-height: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 /*
@@ -241,9 +216,7 @@ kbd,
 pre,
 samp {
   font-family: monospace, serif;
-  font-size: 16px;
   font-size: 1rem;
-  line-height: 24px;
   line-height: 1.5rem;
 }
 
@@ -361,25 +334,17 @@ fieldset {
   border-color: #c0c0c0;
   margin: 0 2px;
   /* Apply borders and padding that keep the vertical rhythm. */
-  border-top-width: 1px;
-  border-top-width: 0.0625rem;
   border-top-style: solid;
-  padding-top: 7px;
+  border-top-width: 0.0625rem;
   padding-top: 0.4625rem;
-  border-bottom-width: 1px;
-  border-bottom-width: 0.0625rem;
   border-bottom-style: solid;
-  padding-bottom: 15px;
+  border-bottom-width: 0.0625rem;
   padding-bottom: 0.9125rem;
-  border-left-width: 1px;
-  border-left-width: 0.0625rem;
   border-left-style: solid;
-  padding-left: 14px;
+  border-left-width: 0.0625rem;
   padding-left: 0.875rem;
-  border-right-width: 1px;
-  border-right-width: 0.0625rem;
   border-right-style: solid;
-  padding-right: 14px;
+  border-right-width: 0.0625rem;
   padding-right: 0.875rem;
 }
 
@@ -531,31 +496,21 @@ table {
   border-spacing: 0;
 }
 
-/* line 9, ../sass/style.scss */
+/* line 10, ../sass/style.scss */
 textarea {
   height: 144px;
   height: 9rem;
 }
 
-/* line 14, ../../../../../../../../../.rvm/gems/ruby-1.9.3-p194@learn2d/gems/susy-1.0.5.alpha.0/sass/susy/_grid.scss */
+/* line 14, ../../../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy/sass/susy/_grid.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 17, ../sass/style.scss */
+/* line 18, ../sass/style.scss */
 .container {
-  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(5%, rgba(0, 0, 0, 0.5)), color-stop(5%, rgba(0, 0, 0, 0)));
-  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-  background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-  background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-  background-image: linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-  -webkit-background-size: 100% 24px;
-  -moz-background-size: 100% 24px;
-  -o-background-size: 100% 24px;
-  background-size: 100% 24px;
-  background-position: left top;
   background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(5%, rgba(0, 0, 0, 0.5)), color-stop(5%, rgba(0, 0, 0, 0))), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(3.22581%, rgba(0, 0, 0, 0)), color-stop(3.22581%, rgba(100, 100, 225, 0.25)), color-stop(16.12903%, rgba(100, 100, 225, 0.25)), color-stop(16.12903%, rgba(0, 0, 0, 0)), color-stop(19.35484%, rgba(0, 0, 0, 0)), color-stop(19.35484%, rgba(100, 100, 225, 0.25)), color-stop(32.25806%, rgba(100, 100, 225, 0.25)), color-stop(32.25806%, rgba(0, 0, 0, 0)), color-stop(35.48387%, rgba(0, 0, 0, 0)), color-stop(35.48387%, rgba(100, 100, 225, 0.25)), color-stop(48.3871%, rgba(100, 100, 225, 0.25)), color-stop(48.3871%, rgba(0, 0, 0, 0)), color-stop(51.6129%, rgba(0, 0, 0, 0)), color-stop(51.6129%, rgba(100, 100, 225, 0.25)), color-stop(64.51613%, rgba(100, 100, 225, 0.25)), color-stop(64.51613%, rgba(0, 0, 0, 0)), color-stop(67.74194%, rgba(0, 0, 0, 0)), color-stop(67.74194%, rgba(100, 100, 225, 0.25)), color-stop(80.64516%, rgba(100, 100, 225, 0.25)), color-stop(80.64516%, rgba(0, 0, 0, 0)), color-stop(83.87097%, rgba(0, 0, 0, 0)), color-stop(83.87097%, rgba(100, 100, 225, 0.25)), color-stop(96.77419%, rgba(100, 100, 225, 0.25)), color-stop(96.77419%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
   background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%), -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 3.22581%, rgba(100, 100, 225, 0.25) 3.22581%, rgba(100, 100, 225, 0.25) 16.12903%, rgba(0, 0, 0, 0) 16.12903%, rgba(0, 0, 0, 0) 19.35484%, rgba(100, 100, 225, 0.25) 19.35484%, rgba(100, 100, 225, 0.25) 32.25806%, rgba(0, 0, 0, 0) 32.25806%, rgba(0, 0, 0, 0) 35.48387%, rgba(100, 100, 225, 0.25) 35.48387%, rgba(100, 100, 225, 0.25) 48.3871%, rgba(0, 0, 0, 0) 48.3871%, rgba(0, 0, 0, 0) 51.6129%, rgba(100, 100, 225, 0.25) 51.6129%, rgba(100, 100, 225, 0.25) 64.51613%, rgba(0, 0, 0, 0) 64.51613%, rgba(0, 0, 0, 0) 67.74194%, rgba(100, 100, 225, 0.25) 67.74194%, rgba(100, 100, 225, 0.25) 80.64516%, rgba(0, 0, 0, 0) 80.64516%, rgba(0, 0, 0, 0) 83.87097%, rgba(100, 100, 225, 0.25) 83.87097%, rgba(100, 100, 225, 0.25) 96.77419%, rgba(0, 0, 0, 0) 96.77419%, rgba(0, 0, 0, 0) 100%);
   background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%), -moz-linear-gradient(left, rgba(0, 0, 0, 0) 3.22581%, rgba(100, 100, 225, 0.25) 3.22581%, rgba(100, 100, 225, 0.25) 16.12903%, rgba(0, 0, 0, 0) 16.12903%, rgba(0, 0, 0, 0) 19.35484%, rgba(100, 100, 225, 0.25) 19.35484%, rgba(100, 100, 225, 0.25) 32.25806%, rgba(0, 0, 0, 0) 32.25806%, rgba(0, 0, 0, 0) 35.48387%, rgba(100, 100, 225, 0.25) 35.48387%, rgba(100, 100, 225, 0.25) 48.3871%, rgba(0, 0, 0, 0) 48.3871%, rgba(0, 0, 0, 0) 51.6129%, rgba(100, 100, 225, 0.25) 51.6129%, rgba(100, 100, 225, 0.25) 64.51613%, rgba(0, 0, 0, 0) 64.51613%, rgba(0, 0, 0, 0) 67.74194%, rgba(100, 100, 225, 0.25) 67.74194%, rgba(100, 100, 225, 0.25) 80.64516%, rgba(0, 0, 0, 0) 80.64516%, rgba(0, 0, 0, 0) 83.87097%, rgba(100, 100, 225, 0.25) 83.87097%, rgba(100, 100, 225, 0.25) 96.77419%, rgba(0, 0, 0, 0) 96.77419%, rgba(0, 0, 0, 0) 100%);
@@ -573,25 +528,15 @@ textarea {
   margin-right: auto;
   border: 1px solid transparent;
 }
-/* line 38, ../../../../../../../../../.rvm/gems/ruby-1.9.3-p194@learn2d/gems/compass-0.13.alpha.0.7ff38d1/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .container:after {
   content: "";
   display: table;
   clear: both;
 }
 @media (min-width: 40em) {
-  /* line 17, ../sass/style.scss */
+  /* line 18, ../sass/style.scss */
   .container {
-    background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(5%, rgba(0, 0, 0, 0.5)), color-stop(5%, rgba(0, 0, 0, 0)));
-    background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-    background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-    background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-    background-image: linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-    -webkit-background-size: 100% 24px;
-    -moz-background-size: 100% 24px;
-    -o-background-size: 100% 24px;
-    background-size: 100% 24px;
-    background-position: left top;
     background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(5%, rgba(0, 0, 0, 0.5)), color-stop(5%, rgba(0, 0, 0, 0))), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(2.43902%, rgba(0, 0, 0, 0)), color-stop(2.43902%, rgba(100, 100, 225, 0.25)), color-stop(12.19512%, rgba(100, 100, 225, 0.25)), color-stop(12.19512%, rgba(0, 0, 0, 0)), color-stop(14.63415%, rgba(0, 0, 0, 0)), color-stop(14.63415%, rgba(100, 100, 225, 0.25)), color-stop(24.39024%, rgba(100, 100, 225, 0.25)), color-stop(24.39024%, rgba(0, 0, 0, 0)), color-stop(26.82927%, rgba(0, 0, 0, 0)), color-stop(26.82927%, rgba(100, 100, 225, 0.25)), color-stop(36.58537%, rgba(100, 100, 225, 0.25)), color-stop(36.58537%, rgba(0, 0, 0, 0)), color-stop(39.02439%, rgba(0, 0, 0, 0)), color-stop(39.02439%, rgba(100, 100, 225, 0.25)), color-stop(48.78049%, rgba(100, 100, 225, 0.25)), color-stop(48.78049%, rgba(0, 0, 0, 0)), color-stop(51.21951%, rgba(0, 0, 0, 0)), color-stop(51.21951%, rgba(100, 100, 225, 0.25)), color-stop(60.97561%, rgba(100, 100, 225, 0.25)), color-stop(60.97561%, rgba(0, 0, 0, 0)), color-stop(63.41463%, rgba(0, 0, 0, 0)), color-stop(63.41463%, rgba(100, 100, 225, 0.25)), color-stop(73.17073%, rgba(100, 100, 225, 0.25)), color-stop(73.17073%, rgba(0, 0, 0, 0)), color-stop(75.60976%, rgba(0, 0, 0, 0)), color-stop(75.60976%, rgba(100, 100, 225, 0.25)), color-stop(85.36585%, rgba(100, 100, 225, 0.25)), color-stop(85.36585%, rgba(0, 0, 0, 0)), color-stop(87.80488%, rgba(0, 0, 0, 0)), color-stop(87.80488%, rgba(100, 100, 225, 0.25)), color-stop(97.56098%, rgba(100, 100, 225, 0.25)), color-stop(97.56098%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
     background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%), -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 2.43902%, rgba(100, 100, 225, 0.25) 2.43902%, rgba(100, 100, 225, 0.25) 12.19512%, rgba(0, 0, 0, 0) 12.19512%, rgba(0, 0, 0, 0) 14.63415%, rgba(100, 100, 225, 0.25) 14.63415%, rgba(100, 100, 225, 0.25) 24.39024%, rgba(0, 0, 0, 0) 24.39024%, rgba(0, 0, 0, 0) 26.82927%, rgba(100, 100, 225, 0.25) 26.82927%, rgba(100, 100, 225, 0.25) 36.58537%, rgba(0, 0, 0, 0) 36.58537%, rgba(0, 0, 0, 0) 39.02439%, rgba(100, 100, 225, 0.25) 39.02439%, rgba(100, 100, 225, 0.25) 48.78049%, rgba(0, 0, 0, 0) 48.78049%, rgba(0, 0, 0, 0) 51.21951%, rgba(100, 100, 225, 0.25) 51.21951%, rgba(100, 100, 225, 0.25) 60.97561%, rgba(0, 0, 0, 0) 60.97561%, rgba(0, 0, 0, 0) 63.41463%, rgba(100, 100, 225, 0.25) 63.41463%, rgba(100, 100, 225, 0.25) 73.17073%, rgba(0, 0, 0, 0) 73.17073%, rgba(0, 0, 0, 0) 75.60976%, rgba(100, 100, 225, 0.25) 75.60976%, rgba(100, 100, 225, 0.25) 85.36585%, rgba(0, 0, 0, 0) 85.36585%, rgba(0, 0, 0, 0) 87.80488%, rgba(100, 100, 225, 0.25) 87.80488%, rgba(100, 100, 225, 0.25) 97.56098%, rgba(0, 0, 0, 0) 97.56098%, rgba(0, 0, 0, 0) 100%);
     background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%), -moz-linear-gradient(left, rgba(0, 0, 0, 0) 2.43902%, rgba(100, 100, 225, 0.25) 2.43902%, rgba(100, 100, 225, 0.25) 12.19512%, rgba(0, 0, 0, 0) 12.19512%, rgba(0, 0, 0, 0) 14.63415%, rgba(100, 100, 225, 0.25) 14.63415%, rgba(100, 100, 225, 0.25) 24.39024%, rgba(0, 0, 0, 0) 24.39024%, rgba(0, 0, 0, 0) 26.82927%, rgba(100, 100, 225, 0.25) 26.82927%, rgba(100, 100, 225, 0.25) 36.58537%, rgba(0, 0, 0, 0) 36.58537%, rgba(0, 0, 0, 0) 39.02439%, rgba(100, 100, 225, 0.25) 39.02439%, rgba(100, 100, 225, 0.25) 48.78049%, rgba(0, 0, 0, 0) 48.78049%, rgba(0, 0, 0, 0) 51.21951%, rgba(100, 100, 225, 0.25) 51.21951%, rgba(100, 100, 225, 0.25) 60.97561%, rgba(0, 0, 0, 0) 60.97561%, rgba(0, 0, 0, 0) 63.41463%, rgba(100, 100, 225, 0.25) 63.41463%, rgba(100, 100, 225, 0.25) 73.17073%, rgba(0, 0, 0, 0) 73.17073%, rgba(0, 0, 0, 0) 75.60976%, rgba(100, 100, 225, 0.25) 75.60976%, rgba(100, 100, 225, 0.25) 85.36585%, rgba(0, 0, 0, 0) 85.36585%, rgba(0, 0, 0, 0) 87.80488%, rgba(100, 100, 225, 0.25) 87.80488%, rgba(100, 100, 225, 0.25) 97.56098%, rgba(0, 0, 0, 0) 97.56098%, rgba(0, 0, 0, 0) 100%);
@@ -608,7 +553,7 @@ textarea {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 38, ../../../../../../../../../.rvm/gems/ruby-1.9.3-p194@learn2d/gems/compass-0.13.alpha.0.7ff38d1/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, ../../../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
   .container:after {
     content: "";
     display: table;

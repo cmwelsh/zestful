@@ -1,0 +1,12 @@
+// Font family
+
+@mixin font($font-family) {
+    @if ($font-family == sans-serif) {
+        font-family: $base-font-family;
+    }
+    // Add your font families here
+}
+
+// Font face
+
+// Add your font faces here

@@ -1,3 +1,10 @@
+// Disable # links to make development easier
+jQuery(document).on('click', 'a', function (e) {
+    if (jQuery(this).attr('href') === '#') {
+        e.preventDefault();
+    }
+});
+
 // Avoid `console` errors in browsers that lack a console.
 ;(function() {
     var method;
